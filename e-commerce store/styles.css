@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-form {
+    display: inline-block;
+    position: absolute;
+    left: 20px; /* Position the search form on the right */
+    top: 17%;
+    transform: translateY(-50%); /* Center vertically */
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-form button:hover {
+    background-color: #777; /* Slightly lighter on hover */
+}
+.hero {
+    background-image: url(hero.jpg);
+    padding: 50px 10px;
+    text-align: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    filter: brightness(-50%);
+
+}
+
+
+
+.hero h1 {
+    margin: 0;
+    font-size: 48px;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    text-align: center;
+}
+
+
+.products {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to next line if needed */
+    justify-content: space-between; /* Distribute space between items */
+    margin: 20px auto; /* Center the product section */
+    max-width: 1200px; /* Set a maximum width for the product section */
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    width: calc(33% - 20px); /* Adjust width for 3 products per row */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Set a max height for the image */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 18px;
+    color: #333;
+}
+
+.product button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reviews {
+    background-color: #eee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.review {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
